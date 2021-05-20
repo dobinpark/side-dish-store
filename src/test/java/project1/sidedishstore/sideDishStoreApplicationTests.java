@@ -1,10 +1,10 @@
-package project1.toy;
+package project1.sidedishstore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ToyApplicationTests {
+class sideDishStoreApplicationTests {
 
 	@Test
 	void contextLoads() {
