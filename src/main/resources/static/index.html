@@ -2,53 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>메인 페이지</title>
-  <style>
-    @media all and (max-width: 1280px)
-    {
-        .header .nav .main1
-        {
-          display: none;
-        }
-        .header .nav .main2
-        {
-          display: none;
-        }
-        .header .nav .main3
-        {
-          display: none;
-        }
-        .header .nav .main4
-        {
-          display: none;
-        }
-        .header .nav .main5
-        {
-          display: none;
-        }
-        .header .nav .main6
-        {
-          display: none;
-        }
-    }
-
-    @media all and (min-width: 1280px)
-    {
-
-    }
-
-  </style>
 </head>
 <body>
     <div class="header">
+        <div class="main1">은경이네 반찬가게</div>
         <nav class="nav">
-            <div class="main1">은경이네 반찬가게</div>
             <a href="index.html" style="color: black"><div class="main2">메인 페이지</div></a>
             <a href="company.html" style="color: black"><div class="main3">회사 소개</div></a>
             <a href="store.html" style="color: black"><div class="main4">매장 안내</div></a>
             <a href="menu.html" style="color: black"><div class="main5">메뉴 소개</div></a>
             <a href="community.html" style="color: black"><div class="main6">커뮤니티</div></a>
+            <a href="event.html" style="color: black"><div class="main7">이벤트</div></a>
         </nav>
     </div>
 
@@ -60,51 +26,19 @@
         </section>
 
         <section class="section1">
-            <img src="다운로드.jpg" class="img1" alt="">
+
         </section>
 
         <section class="section2">
-            <div class="text1">
-                이것은 한국산 김치입니다. 안전하게 드시면 됩니다.<br>
-                감사합니다.</div>
-            <div class="img2"></div>
-            <div class="text2">
-                은경이네 반찬가게를 창업한 김은경님은 올해 xx살로<br>
-                옛날부터 조그만한 반찬가게를 운여하고 싶다고 하셨습니다.<br>
-                지금은 누구보다도 친절하게 단골손님을 맞이하고 있으며<br>
-                재미있게 일을 하고 있습니다.
-                <br><br>
-                이 름 : 김 은 경<br>
-                생년월일 : 1967.01.24<br>
-                출 생 지 : 경남 진해
-            </div>
-        </section>
-
-        <section class="section3">
             <form action="main2.html">
-                <div><label>이름</label><input type="text"></div>
-                <div><label>휴대폰번호</label><input type="text"></div>
-                <div><label>인증번호</label><input type="text"></div>
-                <br>
-                <div><input type="submit" value="레스토량 예약"></div>
+                <h2>로그인</h2>
+                <div><label>아 이 디 : </label><input type="text" name="id"></div>
+                <div><label>비밀번호: </label><input type="password" name="password" required></div>
+                <div class="login"><input type="submit" value="로그인"></div>
+                <div class="signup"><input type="submit" value="회원가입"></div>
             </form>
         </section>
 
-        <section class="section4">
-            <table class="table1">
-                <tr>
-                  <th>시간</th>
-                  <th>12:00</th>
-                  <th>13:00</th>
-                  <th>14:00</th>
-                  <th>15:00</th>
-                  <th>16:00</th>
-                  <th>17:00</th>
-                  <th>18:00</th>
-                  <th>19:00</th>
-                </tr>
-            </table>
-        </section>
     </div>
 
     <div class="footer">
